@@ -2,16 +2,55 @@ body{
 	font-family:Courier New;
 }
 
-#contener{
+.contener{
 	display:flex;
 	flex-wrap:wrap;
+	flex-direction:column;
 	justify-content:center;
 }
 
-.description{
+.element{
 	width:500px;
+	display:flex;
+	flex-wrap:nowarp;
+	flex-direction:row;
+}
+
+#presentation{
+	color:green;
+	width:auto;
 	border: 1px solid black;
-	margin: 50px;
 	padding: 10px;
 	font-size:large;
+}
+
+#compentences{
+	color:green;
+	width:auto;
+	border: 1px solid black;
+	padding: 10px;
+	font-size:large;
+}
+
+#resauxsocio{
+	color:green;
+	width:auto;
+	border: 1px solid black;
+	padding: 10px;
+	font-size:large;
+}
+
+
+.text{
+	width:auto;
+	display:flex;
+	flex-warp:warp;
+	flex-direction:column;
+	border:1px solid black;
+}
+.avatar{
+	width:auto;
+	height:auto;
+	max-width:250px;
+	max-height:250px;
 }
