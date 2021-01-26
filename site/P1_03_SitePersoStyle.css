@@ -22,6 +22,7 @@ body{
 	flex-wrap:wrap;
 	flex-direction:row;
 	
+	color:white;
 }
 
 #competences{
@@ -51,6 +52,8 @@ body{
 	display:flex;
 	flex-wrap:wrap;
 	flex-direction:column;
+	
+	color:white;
 }
 
 .text{
@@ -73,13 +76,14 @@ body{
 	
 }
 
+.deco{
+	color:white;
+	background-color:#2b034d;
+}
+
 .subtitle{
 	margin-top:-25px;
 	margin-left:5px;
-	
-	width:203px;
-	color:white;
-	background-color:#2b034d;
 }
 
 .links{
