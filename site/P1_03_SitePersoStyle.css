@@ -9,48 +9,94 @@ body{
 	justify-content:center;
 }
 
-.element{
-	width:500px;
-	display:flex;
-	flex-wrap:nowarp;
-	flex-direction:row;
-}
-
 #presentation{
-	color:green;
+	background-color:#830de5;
 	width:auto;
-	border: 1px solid black;
-	padding: 10px;
 	font-size:large;
+	
+	margin:auto;
+	
+	padding:25px;
+	
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	
 }
 
-#compentences{
-	color:green;
+#competences{
+	background-color:white;
 	width:auto;
-	border: 1px solid black;
-	padding: 10px;
 	font-size:large;
+	
+	margin:auto;
+	
+	padding:25px;
+	
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	
 }
 
 #resauxsocio{
-	color:green;
+	background-color:#830de5;
 	width:auto;
-	border: 1px solid black;
-	padding: 10px;
 	font-size:large;
+	
+	margin:auto;
+	
+	padding:25px;
+	
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
 }
-
 
 .text{
-	width:auto;
+	padding:50px;
+	
+	width:500px;
+	
 	display:flex;
-	flex-warp:warp;
+	flex-wrap:wrap;
 	flex-direction:column;
-	border:1px solid black;
+	justify-content: center;
 }
 .avatar{
+	padding:50px;
+	
 	width:auto;
 	height:auto;
 	max-width:250px;
 	max-height:250px;
+	
+}
+
+.subtitle{
+	margin-top:-25px;
+	margin-left:5px;
+	
+	width:203px;
+	color:white;
+	background-color:#2b034d;
+}
+
+.links{
+	padding:10px;
+	
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content: flex-start;
+}
+
+.icon{
+	margin:5px;
+	margin-left:10px;
+	
+	width:auto;
+	height:auto;
+	max-width:75px;
+	max-height:75px;
 }
