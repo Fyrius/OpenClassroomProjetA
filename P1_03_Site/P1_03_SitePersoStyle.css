@@ -59,7 +59,8 @@ body{
 .text{
 	padding:50px;
 	
-	width:500px;
+	width:auto;
+	max-width:500px;
 	
 	display:flex;
 	flex-wrap:wrap;
